@@ -286,7 +286,7 @@ body {
 /* Section 1 from main - index.html */
 
 .first-section {
-  --header-image-bg-color: rgba(46, 47, 66, 0.698);
+  --header-image-bg-color: rgba(46, 47, 66, 0.7);
 
   background-image: linear-gradient(
       var(--header-image-bg-color),
