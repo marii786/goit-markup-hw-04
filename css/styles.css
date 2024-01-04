@@ -356,8 +356,8 @@ body {
 }
 
 .icons-dimensions {
-  width: 64px;
-  height: 64px;
+  width: 64;
+  height: 64;
 }
 
 .visually-hidden {
