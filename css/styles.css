@@ -299,6 +299,7 @@ body {
   text-align: center;
   padding: 188px 0;
   max-width: 1440px;
+  margin-inline: auto;
 }
 
 .first-section-title {
@@ -526,6 +527,7 @@ body {
   background-color: var(--brand-color-iris);
   border-radius: 50%;
   display: flex;
+  justify-content: center;
   align-items: center;
   align-items: center;
 }
