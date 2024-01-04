@@ -343,6 +343,21 @@ body {
   flex-direction: row;
 }
 
+.svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--brand-color-cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.icons-dimensions {
+  width: 64;
+  height: 64;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
