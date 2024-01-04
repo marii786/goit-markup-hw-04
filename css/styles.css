@@ -341,7 +341,6 @@ body {
   padding: 120px 0px;
   display: flex;
   flex-direction: row;
-  
 }
 
 .svg-container {
@@ -513,4 +512,26 @@ body {
   line-height: 150%;
   letter-spacing: 0.32px;
   margin-bottom: 32px;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-media-icons {
+  width: 40px;
+  height: 40px;
+  fill: var(--brand-color-cloud);
+  background-color: var(--brand-color-iris);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-dimensions {
+  width: 16px;
+  height: 16px;
 }
