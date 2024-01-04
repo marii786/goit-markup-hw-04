@@ -155,7 +155,7 @@ body {
   cursor: pointer;
   background: var(--brand-color-cloud);
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--brand-color-cornflower);
   border-radius: 4px;
 }
 
@@ -164,6 +164,10 @@ body {
   background: var(--brand-color-ocean);
   color: #ffffffff;
   border: 0px solid rgba(0, 0, 0, 0);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .pointer {
@@ -177,8 +181,10 @@ body {
 
 .row-one:hover,
 .row-one:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .row-header {
@@ -215,17 +221,9 @@ body {
 }
 
 .portfolio-button-sublist {
-  padding: 12px 24px;
-  border: 1px solid var(--brand-color-cornflower);
-  border-radius: 4px;
-}
-
-.portfolio-button-sublist:hover,
-.portfolio-button-sublist:focus {
-  border: 1px solid rgba(0, 0, 0, 0);
-  border: 1px solid rgba(0, 0, 0, 0);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-row-section-list {
