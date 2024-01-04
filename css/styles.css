@@ -518,15 +518,4 @@ body {
 .social-media-icons {
   width: 40px;
   height: 40px;
-  fill: var(--brand-color-cloud);
-  background-color: var(--brand-color-iris);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-media-dimensions {
-  width: 16px;
-  height: 16px;
 }
