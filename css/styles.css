@@ -298,6 +298,7 @@ body {
   display: flex;
   text-align: center;
   padding: 188px 0;
+  max-width: 1440px;
 }
 
 .first-section-title {
