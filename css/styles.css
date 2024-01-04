@@ -347,6 +347,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 264px;
   height: 112px;
   background-color: var(--brand-color-cloud);
   border-radius: 4px;
@@ -354,8 +355,8 @@ body {
 }
 
 .icons-dimensions {
-  width: 64;
-  height: 64;
+  width: 64px;
+  height: 64px;
 }
 
 .visually-hidden {
