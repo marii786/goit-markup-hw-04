@@ -354,11 +354,6 @@ body {
   margin-bottom: 8px;
 }
 
-.icons-dimensions {
-  width: 64;
-  height: 64;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
