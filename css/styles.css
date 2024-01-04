@@ -38,6 +38,8 @@ body {
 
 .header-section {
   border-bottom: 1px solid var(--brand-color-cornflower);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -64,7 +66,6 @@ body {
 }
 
 .logo-web {
-  display: inline-block;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -89,6 +90,8 @@ body {
 
 .header-navbar-list {
   display: flex;
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
 }
 
 .nav-link {
@@ -283,8 +286,6 @@ body {
     url("../images/people-office1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   color: white;
   display: flex;
   text-align: center;
