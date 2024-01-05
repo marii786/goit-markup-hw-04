@@ -558,14 +558,14 @@ body {
   margin-bottom: 72px;
   text-align: center;
   text-transform: capitalize;
-  font-weight: 700;
   letter-spacing: 0.72px;
 }
 
 .customers-list {
   display: flex;
+  align-items: flex-start;
   gap: 24px;
-  height: 88px;
+  padding: 0;
 }
 
 .customers-list-li {
