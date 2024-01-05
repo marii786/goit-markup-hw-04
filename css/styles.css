@@ -450,27 +450,25 @@ body {
 
 .fourth-section-main {
   background: var(--brand-color-cloud);
+  display: flex;
   padding: 120px 0;
 }
 
 .fourth-section-list {
-  background-color: var(--brand-color-cloud);
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 
 .fourth-section {
-  background-color: #ffffffff;
+  background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  width: calc((100% - 48px) / 3);
-  width: 100%;
-  min-width: 264px;
 }
 
-.forth-section-main-title {
+.our-team-title {
   color: var(--brand-color-navy-blue);
   font-size: 36px;
   font-weight: 700px;
@@ -479,12 +477,6 @@ body {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
-}
-
-.fourth-section-list {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
 }
 
 .forth-section-div {
@@ -509,12 +501,15 @@ body {
   line-height: 150%;
   letter-spacing: 0.32px;
   margin-bottom: 32px;
+  font-size: 16px;
 }
 
 .social-media {
   display: flex;
   justify-content: center;
   gap: 24px;
+  list-style: none;
+  padding-inline-start: 0%;
 }
 
 .social-media-icons {
