@@ -17,12 +17,16 @@ body {
   color: var(--brand-color-slate);
 }
 
+p {
+  margin: 0;
+}
+
 h2 {
   margin: 0;
 }
 *,
-::before,
-::after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
