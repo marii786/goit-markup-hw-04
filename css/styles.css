@@ -8,6 +8,7 @@
   --brand-color-ocean: #404bbf;
   --brand-color-cloud: #f4f4fd;
   --brand-color-cornflower: #e7e9fc;
+  --brand-color-white: #ffffff;
 }
 /* Global styles */
 body {
@@ -248,9 +249,7 @@ body {
 /* Footer symols */
 
 .footer {
-  font-family: var(--logo-font-family);
   background-color: var(--brand-color-navy-blue);
-  display: flex;
   padding: 100px 0;
 }
 
@@ -278,6 +277,63 @@ body {
   font-weight: 800px;
   font-family: "Raleway", sans-serif;
   margin-bottom: 16px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-second-container {
+  margin-right: 120px;
+  flex-direction: column;
+  display: inline-block;
+}
+
+.footer-social-media-title {
+  font-family: var(--header-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color-white);
+  margin-bottom: 16px;
+}
+
+.footer-social-media-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footer-social-media-list {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-media-link {
+  width: 40px;
+  height: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-color-iris);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.footer-social-media-link:hover,
+.footer-social-media-link:focus {
+  background-color: #31d0aa;
+  background-color: #31d0aa;
+}
+
+.footer-social-media-icon {
+  fill: var(--brand-color-cloud);
 }
 
 /* index.html */
